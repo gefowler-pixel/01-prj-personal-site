@@ -1,1 +1,145 @@
-/* Add you CSS here */
+/* Basic page setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffaf8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: white;
+  border-bottom: 1px solid #eeeeee;
+}
+
+nav h2 {
+  color: #9a6870;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #9a6870;
+}
+
+/* Hero section */
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f8eeee;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  color: #9a6870;
+  margin-bottom: 20px;
+}
+
+header p {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+}
+
+header a {
+  display: inline-block;
+  background-color: #9a6870;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+}
+
+/* Main sections */
+section {
+  padding: 70px 10%;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* About */
+#about p {
+  max-width: 750px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+/* Skills */
+#skills {
+  background-color: #f8eeee;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#skills li {
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Projects */
+#projects {
+  text-align: center;
+}
+
+#projects h3 {
+  color: #9a6870;
+  margin-top: 30px;
+}
+
+#projects p {
+  max-width: 650px;
+  margin: 0 auto 20px;
+}
+
+/* Contact */
+#contact {
+  background-color: #f8eeee;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
